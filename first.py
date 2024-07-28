@@ -57,3 +57,46 @@ print(a<=b) #true
 print(a>=b) #false
 print(a>b) #true
 print(a<b) #false
+
+#example ===
+
+num = 10
+num1 = 10 + num
+print(num1)
+
+#logical operator
+"""""suppose our value is true but but when we usiong our (not)
+operator it will give opposite result. examplde if true result falsse..
+"""""
+a = 55
+b = 30
+print(not(a>b))
+
+#also folloiw the typecasting methode
+
+#user input
+input("My name is :")
+val = input("My name is : ")
+print(type(val))
+
+#number======
+input("Number is : ")
+
+value = int(input("Entger the number : "))
+print(type(value), value)
+
+#@Example==
+name = input("Enter your name : ")
+age = input("Enter your age : ")
+marks = float(input("Enter your marks : "))
+
+print("welcome : ", name)
+print("age : ", age)
+print("marks : ", marks)
+
+           #qestion1==============
+val1 = float(input("enter your first number: "))
+val2 = float(input("enter your second number: "))
+val3 = float(input("enter your third number: "))
+val4 = float(input("enter your fourth number: "))
+print("The aum of all numbers :", val1+val2+val3+val4)

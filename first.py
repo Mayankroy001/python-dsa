@@ -20,8 +20,40 @@ print (type(price))
 print (type(age2))
 
 
+#Sum=====
+
+a = 2
+b = 3
+print("The sum is : ",a+b)
+# Subst
+a= 1000
+b = 500
+print("The value is : ", a-b)
+
+#this is kmown as single line comment
+"""
+this 
+ is known as multiline
+ conmment"""
+
+# This are all are arithmetic operator 
+c = 5
+d = 3
+print(c+d)
+print(c-d)
+print(c*d)
+print(c/d)
 
 
+#It's an moduler operator
+print(c%d) # for finding reminder
+print(c**d) #c^d
 
+#relational operator ====
 
-
+print(a==b) #false
+print(a!=b) #true
+print(a<=b) #true
+print(a>=b) #false
+print(a>b) #true
+print(a<b) #false
